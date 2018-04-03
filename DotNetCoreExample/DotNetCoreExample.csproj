@@ -79,6 +79,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Lib1Core\Lib1Core.csproj">
+      <Project>{affbd903-cf9b-49b2-8a65-85799f57f4cc}</Project>
+      <Name>Lib1Core</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Lib1\Lib1.csproj">
       <Project>{dfff8d63-7b2c-4f68-9619-88da18620e8e}</Project>
       <Name>Lib1</Name>
